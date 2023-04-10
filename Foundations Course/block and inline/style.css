@@ -1,0 +1,19 @@
+.blocked {
+  display: block;
+}
+
+.inlined {
+  display: inline;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
