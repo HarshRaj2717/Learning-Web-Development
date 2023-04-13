@@ -17,5 +17,6 @@
 }
 
 .login {
+  /* This will be ignored by the browser as the above ".menu .div" selector is more explanatory than ".login" */
   flex: 2;
 }
