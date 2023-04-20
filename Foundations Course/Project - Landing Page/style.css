@@ -9,14 +9,12 @@ header {
 }
 
 #header-logo {
-  color: #f9faf8;
-  font-size: 24px;
-  align-self: center;
   display: inline;
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 .header-link {
+  text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;
   align-self: center;
@@ -59,12 +57,14 @@ header {
 
 .sign-up-button {
   background-color: #3882f6;
-  color: #ebe7eb;
-  font-size: 16px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
   border: 0px;
   border-radius: 6px;
-  margin: 5px 0px;
-  padding: 3px 20px;
+  margin: 7px 0px;
+  padding: 4px 25px;
 }
 
 #hero-image {
@@ -73,6 +73,7 @@ header {
 
 #view-2 {
   margin: 10px 0px;
+  padding: 10px 0px;
 }
 
 #view-2-heading {
@@ -80,12 +81,14 @@ header {
   font-weight: bolder;
   color: #1f2937;
   text-align: center;
+  margin: 10px;
 }
 
 #view-2-content-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 
 .view-2-content-item,
@@ -93,13 +96,74 @@ header {
   margin: 10px;
   display: inline;
   text-align: center;
-  color: #6b727f;
-  font-size: 15px;
+  color: #858688;
+  font-size: 18px;
   font-weight: lighter;
 }
 
 .view-2-content > img {
+  border: 3px solid #3882f6;
   border-radius: 14px;
-  border-color: #3882f6;
-  border: 10px;
+}
+
+#view-3 {
+  background: #e5e7eb;
+  color: #1f2937;
+  padding: 50px 250px;
+}
+
+#view-3-quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+#view-3-quote-by {
+  font-weight: bold;
+  text-align: right;
+  padding: 10px 30px 0px 0px;
+}
+
+#view-4 {
+  padding: 100px 200px;
+}
+
+#view-4-content-container {
+  background: #3882f6;
+  display: flex;
+  padding: 50px 150px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+#view-4-content-left {
+  flex: 1;
+}
+
+#view-4-content-left-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+#view-4-content-left-text {
+  color: #e5e7eb;
+}
+
+#view-4-content-right > .sign-up-button {
+  border: 2px solid white;
+}
+
+footer {
+  background-color: #1f2937;
+  padding: 25px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-text {
+  font-size: 14px;
+  font-weight: lighter;
 }
